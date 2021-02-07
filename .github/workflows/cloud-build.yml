@@ -1,7 +1,6 @@
 name: Build using Cloud Build
 
-on:
-  push:
+on: push
 
 env:
   PROJECT_ID: ${{ secrets.RUN_PROJECT }}
